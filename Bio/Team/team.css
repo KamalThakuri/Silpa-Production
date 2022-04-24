@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background: rgb(252, 255, 226);
+    max-width:1100px;
+    margin: auto;
+}
+
+
+
+ul li a {
+    text-decoration: none;
+    /* color: aliceblue; */
+}
+
+ul li {
+    list-style: none;
+}
+
+.header {
+    text-align: center;
+    padding: 30px 0;
+    /* background: rgb(251, 255, 212); */
+}
+.header h1 {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-bar {
+    border-top: 1px solid rgb(183, 184, 159);
+    border-bottom: 1px solid rgb(183, 184, 159);
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-bar ul li a {
+    color: #000;
+}
+
+.nav-bar ul li {
+    padding: 30px;
+}
+.nav-bar ul li a:hover {
+    color: rgb(202, 191, 127);
+    transition: ease 500ms;
+}
+
+.selected {
+    background-color: rgb(218, 221, 190);
+}
+
+/* Teams */
+.teams {
+    padding-top: 20px;
+    display: flex;
+}
+
+.our-team {
+    display: flex;
+    justify-content: space-around;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.team {
+    padding-top: 10px;
+    max-width: 250px;
+    background-color: rgb(188, 196, 202);
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.team img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.detail {
+    margin-top: 10px;
+}
+
+
+/* Team description display---------- */
+.team-description .team {
+    max-width: 500px;
+}
+
+.team-description .team-1,
+.team-description .team-2,
+.team-description .team-3,
+.team-description .team-4,
+.team-description .team-5 {
+    /* here change display to none */
+    display: none;   
+    margin: 20px 0;
+    background-color: rgb(85, 88, 90);
+    color: aliceblue;
+}
+
+.team-description ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-description ul li {
+    padding: 10px 0;
+}
+
+.team-description ul li a {
+    color: rgb(255, 250, 250);
+}
+
+/* default image */
+.default img {
+    display: block;
+    padding: 10px 0;
+    max-width: 400px;
+    margin: auto;
+}
+
+/* Footer */
+.footer {
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+}

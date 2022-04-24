@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background: rgb(252, 255, 226);
+    max-width:1100px;
+    margin: auto;
+}
+
+ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ul li {
+    list-style: none;
+}
+
+.header {
+    text-align: center;
+    padding: 30px 0;
+    /* background: rgb(251, 255, 212); */
+}
+.header h1 {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-bar {
+    border-top: 1px solid rgb(183, 184, 159);
+    border-bottom: 1px solid rgb(183, 184, 159);
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-bar ul li a {
+    color: #000;
+}
+
+.nav-bar ul li {
+    padding: 30px;
+}
+.nav-bar ul li a:hover {
+    color: rgb(202, 191, 127);
+    transition: ease 500ms;
+}
+
+.main .photography  {
+    text-align: center;
+}
+
+/* --------------------------------------------------------- */
+.slideshow {
+    max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+    margin: auto;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(17, 9, 9);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(22, 16, 16);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.selected {
+    background-color: rgb(218, 221, 190);
+}
+
+
+/* Animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* ------------------------------------------------------------- */
+
+
+/* Videos */
+
+.videos .video-title {
+    text-align: center;
+}
+
+.video-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.video {
+    padding: 20px;
+}
+
+.video iframe {
+    width: 450px;
+    height: 270px;
+}
+
+
+/* Footer */
+.footer {
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer ul li a {
+    color: #252424;
+}

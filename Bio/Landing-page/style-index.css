@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/image-3.jpg) center center/cover no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    text-decoration: none;
+}
+
+ul li a {
+    padding: 0 20px;
+}
+
+h1 {
+    color: aliceblue;
+
+}
+
+.container {
+    font-family: 'Rajdhani', sans-serif;
+    color: aliceblue;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.travel img {
+    border-radius: 5px;
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    width: 300px;
+    height: auto;
+}
+.documentary img {
+    position: absolute;
+    right: 50px;
+    top: 150px;
+    width: 300px;
+    height: auto;
+}
+.wedding img {
+    position: absolute;
+    left: 50px;
+    top: 550px;
+    width: 300px;
+    height: auto;
+}
+.music img {
+    position: absolute;
+    right: 50px;
+    top: 550px;
+    width: 300px;
+    height: auto;
+}
+.music img:hover {
+    transition: ease-in-out 1500ms;
+}
+
+.button {
+    max-width: 100px;
+    border: 1px solid white;
+    padding: 5px;
+    margin: auto;
+}
+
+.header {
+    padding-top: 30px;
+}
+
+.footer {
+    padding-bottom: 30px;
+}
